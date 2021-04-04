@@ -51,4 +51,3 @@ Quits the build menu.
 
 The framework consists of many classes to help in building online ad units, and includes methods to handle multiple video instances, date checking, device detection, as well as many helper functions. For full documantation of the API, please visit:  
 
-[NEO Framework Documentation](https://github.com/StaticLab/neo-ad-framework/wiki)
