@@ -1,0 +1,44 @@
+{
+  "source" : {
+    "neo"             : "./_NEO_FRAMEWORK/",
+    "greensock"       : "./_NEO_FRAMEWORK/greensock/"
+  },
+
+  "dest"              : {
+    "ads"             : "./Ads/",
+    "html"            : "./Ads/**/deploy/*.html",
+    "sass"            : "./Ads/**/source/scss/**/*.scss",
+    "js"              : "./Ads/**/source/scripts/**/*.js"
+  },
+
+  "templates"         : {
+    "expandPartial"   : "./_NEO_FRAMEWORK/templates/_expand_partial.html",
+    "videoPartial"    : "./_NEO_FRAMEWORK/templates/_video_partial.html"
+  },
+
+  "vendors": {
+    "dc": {
+      "name"          : "DoubleClick",
+      "vendorPath"    : "./_NEO_FRAMEWORK/vendors/dc/",
+      "html"          : "./_NEO_FRAMEWORK/templates/_index_dc.html",
+      "coreClass"     : "dc_core.js",
+      "videoClass"    : "dc_video.js"
+    },
+
+    "sz": {
+      "name"          : "Sizmek",
+      "vendorPath"    : "./_NEO_FRAMEWORK/vendors/sz/",
+      "html"          : "./_NEO_FRAMEWORK/templates/_index_sz.html",
+      "coreClass"     : "sz_core.js",
+      "videoClass"    : "sz_video.js"
+    },
+
+    "ss": {
+      "name"          : "SiteServed",
+      "vendorPath"    : "./_NEO_FRAMEWORK/vendors/ss/",
+      "html"          : "./_NEO_FRAMEWORK/templates/_index_ss.html",
+      "coreClass"     : "ss_core.js",
+      "videoClass"    : "ss_video.js"
+    }
+  }
+}
