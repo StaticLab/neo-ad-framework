@@ -3,7 +3,7 @@
 
 #### Starting a New Project
 
-The Ad Framework relies on Gulp tasks to handle adding the necessary components of an ad, as well as the compiling 
+This Ad Framework relies on Gulp tasks to handle adding the necessary components of an ad, as well as the compiling 
 and processing of the final build files. When starting a new project, it is necessary to copy the **NEO_FRAMEWORK** 
 folder to the new projects directory, as well as the following files:
 
