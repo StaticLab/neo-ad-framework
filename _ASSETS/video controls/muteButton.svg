@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.56 16.22">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>muteButton</title>
+  <path class="a" d="M442.06,263.38l-5.24-4.84H433.5V252h3.32l5.24-4.85v16.22Z" transform="translate(-433.5 -247.16)"/>
+</svg>

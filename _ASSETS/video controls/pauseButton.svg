@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.56 14.27">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>pauseButton</title>
+  <path class="a" d="M166.74,263.38h-2.85V249.11h2.85v14.27Zm5.71,0H169.6V249.11h2.85v14.27Z" transform="translate(-163.89 -249.11)"/>
+</svg>

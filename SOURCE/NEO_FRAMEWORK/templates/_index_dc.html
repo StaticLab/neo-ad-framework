@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title></title>
+
+        <!-- DOUBLECLICK -->
+        <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+        <script>
+            // for expanding ads only
+            Enabler.setExpandingPixelOffsets (0, 0, 336, 250);
+            Enabler.setStartExpanded (false);
+        </script>
+
+        <!-- GREENSOCK -->
+        <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenlite_1.18.5_3bb7bb8f4b38ac71b33dad50f1b17f49_min.js"></script>
+        <script src="https://s0.2mdn.net/ads/studio/cached_libs/timelinelite_1.18.5_2fb4c19072a581c3daede85bd891458e_min.js"></script>
+        <script src="https://s0.2mdn.net/ads/studio/cached_libs/cssplugin_1.18.5_6bbddbd910e8bfac4e19220fe52e1af6_min.js"></script>
+        <script src="https://s0.2mdn.net/ads/studio/cached_libs/easepack_1.18.5_4405b7326844d606cf693d06af83ddfd_min.js"></script>
+
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div id="adContainer">
+            <!-- VIDEO CONTAINER -->
+            <div id=videoContainer">
+                <!--<video id="videoPlayer"></video>-->
+                <div id="vidControls">
+                    <div id="playButton">
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                            <path class="a" d="M170.6,285.95l-7.13,7.13V278.82Z" transform="translate(-163.46 -278.82)"/>
+                        </svg>
+                    </div>
+                    <div id="pauseButton">
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                            <path class="a" d="M166.74,263.38h-2.85V249.11h2.85v14.27Zm5.71,0H169.6V249.11h2.85v14.27Z" transform="translate(-163.89 -249.11)"/>
+                        </svg>
+                    </div>
+                    <div id="soundOnButton">
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                          <g>
+                            <path class="a" d="M442.06,294.06l-5.24-4.84H433.5v-6.53h3.32l5.24-4.85v16.22Z" transform="translate(-433.5 -277.84)"/>
+                            <path class="a" d="M451.43,279.48a0.52,0.52,0,0,1-.29.47l-2.37,1.43a11,11,0,0,1-2.25,1.16A0.5,0.5,0,0,1,446,282a0.53,0.53,0,0,1,.29-0.48l2.37-1.43a11,11,0,0,1,2.25-1.16A0.5,0.5,0,0,1,451.43,279.48Zm0.66,6.52a0.49,0.49,0,0,1-.56.56h-5a0.56,0.56,0,0,1,0-1.11h5A0.49,0.49,0,0,1,452.09,286Zm-0.66,6.61a0.5,0.5,0,0,1-.56.58,10.93,10.93,0,0,1-2.25-1.17l-2.37-1.43a0.52,0.52,0,0,1-.29-0.47,0.5,0.5,0,0,1,.56-0.58,10.93,10.93,0,0,1,2.25,1.17l2.37,1.43A0.52,0.52,0,0,1,451.43,292.61Z" transform="translate(-433.5 -277.84)"/>
+                          </g>
+                        </svg>
+
+                    </div>
+                    <div id="soundOffButton">
+                        <svg xmlns="http://www.w3.org/2000/svg">
+                          <path class="a" d="M442.06,263.38l-5.24-4.84H433.5V252h3.32l5.24-4.85v16.22Z" transform="translate(-433.5 -247.16)"/>
+                        </svg>
+                    </div>
+                    <div id="videoScrubber">
+                        <div id="scrubHandle"></div>
+                        <div id="scrubTrack"></div>
+                        <div id="scrubProgress"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="endframe" class="hidden">
+
+            </div>
+        </div>
+
+        <!-- MAIN SCRIPTS -->
+        <script type="text/javascript" src="scripts/main.min.js"></script>
+    </body>
+</html>
